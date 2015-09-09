@@ -1,0 +1,417 @@
+
+body { background-color: rgba(0,0,0,0.05);}
+
+.container {
+    height: auto;
+    float: none;
+    margin: 10px auto;
+    text-align: center;
+}
+
+/*   Navigation Bar  
+    !!!!!!!!!!!!!!!!    */
+.navigation-content {
+    background-color: #000000;
+}
+
+.black {
+    background-color: black;
+    list-style: none;
+    padding: 0;
+}
+
+.black ul.navigation {
+    width: 100%;
+    margin: 0 0;
+    padding: auto 0;
+    background-color: black;
+    list-style: none;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 18px;
+    float: left;
+}
+.nav-list {
+    display: inline;
+    height: auto;
+    
+    
+}
+
+.nav-list a {
+    padding: 20px 60px;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 18px;
+    float: left;
+    transition: 0.5s;
+        
+}
+
+.nav-list a:hover {
+    background-color: #AABBFF;
+    padding: 20px 60px;
+    list-style: none;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 18px;
+    float: left;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.nav-list a:focus {
+    background-color: #AABBFF;
+    padding: 20px 60px;
+    list-style: none;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 18px;
+    float: left;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+/* ------------- Sign-In Form ------------------------------ */
+
+div.sign-in-box {
+    margin:0;
+    background-color: #000000;
+    opacity: 0.95;
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 45px;
+    right: 0%;
+    z-index: 1;
+    float: left;
+    text-align: center;
+    border:0;
+}
+
+    .registration-form ul {
+        width: 400px;
+        margin: 0;   
+        padding: 5px;    
+    }
+
+    .sign-list {
+        width: 300px;6
+        height: 35px;
+        list-style: none;
+        margin: 3% auto;
+    }
+
+    .sign-in-input {
+        width: 80%;
+        height: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    .sign-list button{
+        width: 80%;
+        height: 100%;
+        text-align: center;
+        font-size: 14px;
+        border-bottom: 1px solid #FFFFFF;
+        
+    }
+
+    .sign-list button:hover{
+        width: 80%;
+        height: 100%;
+        text-align: center;
+        font-size: 14px;
+        border-bottom: 1px solid #FFFFFF;
+        box-shadow: 
+        
+    }
+
+    .sign-list a {
+        color: #FFFFFF;
+        font-size: 14px;
+        padding: 5px 25px;
+        font-weight: 100;
+    }
+
+ /* Big Feature */
+
+.jumbotron {
+    background-image: url(http://www.hdwallpapersllc.com/wp-content/uploads/2015/07/New_York_Wallpapers5.jpg);
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.jumbotron .container {
+    width: 1200px;
+    position: relative;
+    top: -35px;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.jumbotron .container h1 {'
+    float: left;
+    font-size: 48px;  
+    font-family: "Helvetica Neue", 'Helvetica', 'Arial', sans-serif;
+    width: 35%;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.jumbotron p {
+    float: left;
+    width: 35%;
+    padding: 20px 35px;
+    font-size: 20px;
+    color: #DDDDDD;
+}
+
+/* Main Content */
+.main-content {
+    padding: 5px 0;
+    height: auto;
+    float: none;
+    border-bottom: 1px solid #dddddd;
+    background-color: rgba(0,0,0,0.8);
+    
+}
+
+img.menu-picture {
+    height: 180px;
+}
+
+.btn-primary {
+    border-radius: 0;
+    border: #000000;
+    background-color: #101010;
+    transition: 0.5s;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    border-radius: 0;
+    border: #000000;
+    background-color: #AABBFF;
+    transition: 0.5s;
+}
+
+.btn-primary:active:hover {
+    border-radius: 0;
+    border: #000000;   
+    background-color: #555555;
+}
+
+/* Pop up Feature */ 
+
+#animate-text {
+    background-color: #AABBFF;
+    padding: 5px 10px;
+    opacity: 0;
+    color: #000000;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    font-size: 28px;
+    -ms-transform: rotate(9deg); /* IE 9 */
+    -webkit-transform: rotate(9deg); /* Chrome, Safari, Opera */
+    transform: rotate(9deg);
+}
+
+/* Slide's in Main  */
+
+#carousel-example-generic {
+    width: 70%;
+    height: 400px;
+    overflow: hidden;
+    float: none;
+    margin: auto auto auto auto;
+}
+
+/* Footer & Footer hiden button */
+
+    footer {
+        background-color: #000000;
+        margin: auto auto 20px auto;
+        padding: 0 0 0 0;
+        text-align: center;
+    }
+
+/* Hiden content in footer section */
+
+    footer .black {
+        background-color: #EEEEEE;
+        height: auto;
+        margin: 0 auto 30px auto;
+        text-align: center;
+    }
+
+    #footer-button {
+        width: 15%;
+        height: auto;
+        position: relative;
+        left: 42.5%;
+        background-color: #000000;
+        color: #FFFFFF;
+        text-align: center;
+        padding: auto;
+    }
+    #footer-button p {
+        color: #FFFFFF;
+        font-size: 18px;
+        padding: 17px 15px;
+        margin: 15px auto 0 auto; 
+        transition: 0.5s;
+    }
+
+    #footer-button p:hover {
+        font-size: 18px;
+        padding: 17px 15px;
+        background-color: #AABBFF;
+        transition: 0.5s;
+    }
+
+    footer>p {
+        margin: auto auto;
+        padding: 5px;
+        color: #FFFFFF;
+        font-size: 12px;
+        width: 10%;
+        float: none;
+
+    }
+
+/* Social Sprites in the footer section*/
+
+    .sprites {
+        position:relative;
+        top: 0;
+        margin: 10px auto 10px auto;
+        width: auto;
+        height: auto;
+    }
+
+    .sprites ul {
+        padding: 0;
+    }
+
+    .sprites ul li {
+        width: 84px;
+        height: 84px;
+        display: inline-block;
+        align-items: center;  
+    }
+
+    #social-sprite-first {
+        overflow: hidden;
+        text-align: left;
+        width: 84px;
+        height: 84px;
+        background: url(mini-social-icons.png) no-repeat 0 0;
+        object-fit: cover;
+    }
+
+    #social-sprite-second {
+        overflow: hidden;
+        text-align: left;
+        height: 84px;
+        width: 84px;
+        background: url(mini-social-icons.png) no-repeat -504px 0;  
+    }
+
+
+    #social-sprite-third {
+        overflow: hidden;
+        text-align: left;
+        height: 84px;
+        width: 84px;
+        background: url(mini-social-icons.png) no-repeat -840px 0;  
+    }
+
+/* Social Sprites in the footer section hover state*/
+
+    #social-sprite-first:hover {
+        overflow: hidden;
+        text-align: left;
+        height: 84px;
+        width: 84px;
+        background: url(mini-social-icons.png) no-repeat 0 -168px;  
+    }
+
+    #social-sprite-second:hover {
+        overflow: hidden;
+        text-align: left;
+        height: 84px;
+        width: 84px;
+        background: url(mini-social-icons.png) no-repeat -504px -168px;  
+    }
+
+    #social-sprite-third:hover {
+        overflow: hidden;
+        text-align: left;
+        height: 84px;
+        width: 84px;
+        background: url(mini-social-icons.png) no-repeat -840px -168px;  
+    }
+
+/* Speach Bubble css. */
+    div.bubble {
+        z-index: 1;
+        background-color: rgba(0,0,0,0.8);
+        width: 100%;
+        height: 150%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    p.speech {
+        top: 43%;
+        left: 43%;
+        z-index: 1;
+        opacity: 1;
+        position: absolute;
+        width: 200px;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        background-color: #FFFFFF;
+        border: 8px solid #666;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        -webkit-box-shadow: 2px 2px 4px #888;
+        -moz-box-shadow: 2px 2px 4px #888;
+        box-shadow: 2px 2px 4px #888;
+    }
+
+    p.speech:before {
+        opacity: 1;
+        content: ' ';
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: 30px;
+        top: 85px;
+        border: 25px solid;
+        border-color: #666666 transparent transparent #666666;
+    }           
+
+    p.speech:after {
+        content: ' ';
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: 38px;
+        top: 84px;
+        border: 15px solid;
+        border-color: #FFFFFF transparent transparent #FFFFFF;
+    }
